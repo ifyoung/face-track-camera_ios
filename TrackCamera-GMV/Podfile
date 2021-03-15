@@ -1,0 +1,36 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+
+abstract_target 'TrackCameraAll' do
+use_frameworks!
+
+pod 'GoogleMobileVision/FaceDetector'
+
+target 'TrackCamera_GMV' do
+  # Comment the next line if you don't want to use dynamic frameworks
+use_frameworks!
+  # Pods for TrackCamera
+pod 'Tweener', '~> 1.0.0'
+#pod 'BBMetalImage'
+  # Pods for TrackCamera
+pod 'SPPermissions/Camera'
+pod 'SPPermissions/PhotoLibrary'
+pod 'SPPermissions/Microphone'
+pod 'libyuv-iOS'
+pod 'Pow'
+
+
+#pod 'GoogleMLKit/FaceDetection'
+#pod 'GoogleMLKit/ObjectDetection'
+#pod 'GoogleMLKit/ObjectDetectionCustom'
+
+pod 'Soundable', '~> 1.0'
+#pod 'AFNetworking', '~> 4.0'
+pod 'CryptoSwift'
+
+end
+target 'TrackLive' do
+use_frameworks!
+end
+end

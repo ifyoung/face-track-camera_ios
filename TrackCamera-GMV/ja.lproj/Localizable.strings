@@ -1,0 +1,41 @@
+/* 
+  Localizable.strings
+  TrackCamera
+
+  Created by LCh on 2020/7/30.
+  Copyright © 2020 LC. All rights reserved.
+*/
+
+str_to_main="体験を始める";
+str_video="ビデオ";
+str_photo="写真";
+str_setting="設定";
+str_back="返す";
+str_sound="カウントダウン音";
+str_privacy="個人情報保護方針";
+str_top_tip="最初の使用にはインターネットのアクテ\nィベーションが必要です";
+str_title="促す:";
+str_update_content="新しいバージョンが見つかりました";
+str_update_later="後で";
+str_update_ok="更新";
+str_accept="受け取る";
+str_exit="脱落";
+str_close="Close";
+
+str_no_device="周辺に対応する機器はありません";
+str_retry="リトライ";
+str_no_net="一時的に非アクティブです。ネットワークが機能していることを確認してください。";
+
+str_filter_lookup="レトロ";
+str_filter_colorInversion="映画";
+str_filter_luminance="輝度";
+str_filter_erosion="侵食";
+str_filter_polarPixellate="Pixellate";
+str_filter_polkaDot="PolkaDot";
+str_filter_stretch="変形";
+str_filter_swirl="渦巻く";
+str_filter_emboss="エンボス";
+str_filter_edge="輪郭";
+str_filter_bilateralBlur="美しさ";
+str_filter_beauty="軽い顔";
+str_filter_none="なし";

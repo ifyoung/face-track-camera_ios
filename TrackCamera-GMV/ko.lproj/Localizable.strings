@@ -1,0 +1,41 @@
+/* 
+  Localizable.strings
+  TrackCamera
+
+  Created by LCh on 2020/7/30.
+  Copyright © 2020 LC. All rights reserved.
+*/
+
+str_to_main="시작하다";
+str_video="비디오";
+str_photo="사진";
+str_setting="설정";
+str_back="반환";
+str_sound="카운트 다운 사운드";
+str_privacy="개인 정보 정책";
+str_top_tip="처음으로 식별하고 추적하려면 장치에 연결하고\n 온라인으로 활성화해야합니다";
+str_title="신속한:";
+str_update_content="새 버전이 발견되었습니다";
+str_update_later="나중";
+str_update_ok="최신 정보";
+str_accept="동의하기";
+str_exit="출구";
+str_close="셧다운";
+
+str_no_device="주변에 해당 장비가 없습니다";
+str_retry="다시 해 보다";
+str_no_net="일시적으로 비활성 상태입니다. 네트워크가 작동하는지 확인하십시오.";
+
+str_filter_lookup="레트로";
+str_filter_colorInversion="필름";
+str_filter_luminance="단색화";
+str_filter_erosion="흑백의";
+str_filter_polarPixellate="픽셀";
+str_filter_polkaDot="도트";
+str_filter_stretch="변형";
+str_filter_swirl="눈보라";
+str_filter_emboss="엠보싱";
+str_filter_edge="윤곽";
+str_filter_bilateralBlur="미인";
+str_filter_beauty="빛 얼굴";
+str_filter_none="없음";

@@ -1,0 +1,15 @@
+/* 
+  InfoPlist.strings
+  TrackCamera
+
+  Created by LCh on 2020/7/13.
+  Copyright © 2020 LC. All rights reserved.
+*/
+
+
+NSBluetoothPeripheralUsageDescription = "Do you want to allow this app to access your Bluetooth for connecting to the Apai Go device for tracking and shooting?";
+NSBluetoothAlwaysUsageDescription = "This Apai Go needs to use a Bluetooth connection to keep moving";
+NSMicrophoneUsageDescription = "Do you want to allow this app to access your microphone for recording audio while recording video?";
+NSPhotoLibraryUsageDescription = "Do you want to allow this app to access your album for shooting preview?";
+NSCameraUsageDescription = "Do you want to allow this app to access your camera for taking photos and recording videos?";
+

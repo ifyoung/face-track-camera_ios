@@ -1,0 +1,15 @@
+/* 
+  InfoPlist.strings
+  TrackCamera
+
+  Created by LCh on 2020/7/13.
+  Copyright © 2020 LC. All rights reserved.
+*/
+
+
+NSBluetoothPeripheralUsageDescription = "Apai Goを追跡および撮影するためにApai Goデバイスに接続するには、Bluetoothにアクセスする必要があります";
+NSBluetoothAlwaysUsageDescription = "Apai Goは、運動を追跡するためにBluetoothリンクを必要とします";
+NSMicrophoneUsageDescription = "Apai Goで動画を録画するときは、マイクを組み合わせて音声を録音する必要があります";
+NSPhotoLibraryUsageDescription = "ApaiGo は、ユーザーが編集できるように、フォローアップレコーディングのコンテンツをアルバムに保存する必要があります";
+NSCameraUsageDescription = "Apai Goは、カメラを使用してビデオを記録し、ユーザーが相談できるように写真を撮る必要があります";
+

@@ -1,0 +1,41 @@
+/* 
+  Localizable.strings
+  TrackCamera
+
+  Created by LCh on 2020/7/30.
+  Copyright © 2020 LC. All rights reserved.
+*/
+
+str_to_main="开始体验";
+str_video="视频";
+str_photo="照片";
+str_setting="设置";
+str_back="返回";
+str_sound="倒计时音效";
+str_privacy="隐私政策";
+str_top_tip="首次识别跟踪需连上设备并联网激活";
+str_title="提示：";
+str_update_content="发现有新的版本";
+str_update_later="稍后";
+str_update_ok="更新";
+str_accept="同意";
+str_exit="退出";
+str_close="关闭";
+
+str_no_device="周围没有可匹配的设备";
+str_retry="重试";
+str_no_net="暂时无法激活,请确保网络通畅";
+
+str_filter_lookup="复古";
+str_filter_colorInversion="底片";
+str_filter_luminance="单色";
+str_filter_erosion="黑白";
+str_filter_polarPixellate="像素";
+str_filter_polkaDot="波点";
+str_filter_stretch="变形";
+str_filter_swirl="漩涡";
+str_filter_emboss="压花";
+str_filter_edge="轮廓";
+str_filter_bilateralBlur="美颜";
+str_filter_beauty="轻颜";
+str_filter_none="原图";

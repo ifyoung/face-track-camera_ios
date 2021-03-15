@@ -1,0 +1,33 @@
+
+/* Class = "UILabel"; text = "隐私政策"; ObjectID = "5FY-yn-de8"; */
+"5FY-yn-de8.text" = "Privacy Policy";
+
+/* Class = "UILabel"; text = "00:00:00"; ObjectID = "7Zo-PZ-KaG"; */
+"7Zo-PZ-KaG.text" = "00:00:00";
+
+/* Class = "UILabel"; text = "原图"; ObjectID = "FJa-mM-VnY"; */
+"FJa-mM-VnY.text" = "原图";
+
+/* Class = "UILabel"; text = "v1.0"; ObjectID = "IVr-mX-C3T"; */
+"IVr-mX-C3T.text" = "v1.0";
+
+/* Class = "UILabel"; text = "3"; ObjectID = "P8K-i9-lsx"; */
+"P8K-i9-lsx.text" = "3";
+
+/* Class = "UILabel"; text = "设置"; ObjectID = "Qid-JA-shm"; */
+"Qid-JA-shm.text" = "Setting";
+
+/* Class = "UILabel"; text = "倒计时音效"; ObjectID = "TOk-8T-EGg"; */
+"TOk-8T-EGg.text" = "Countdown sound";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "fhR-0p-MEw"; */
+"fhR-0p-MEw.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "返回"; ObjectID = "gch-kP-CJ1"; */
+"gch-kP-CJ1.normalTitle" = "Back";
+
+/* Class = "UISegmentedControl"; lud-1c-f0V.segmentTitles[0] = "视频"; ObjectID = "lud-1c-f0V"; */
+"lud-1c-f0V.segmentTitles[0]" = "VIDEO";
+
+/* Class = "UISegmentedControl"; lud-1c-f0V.segmentTitles[1] = "照片"; ObjectID = "lud-1c-f0V"; */
+"lud-1c-f0V.segmentTitles[1]" = "PHOTO";

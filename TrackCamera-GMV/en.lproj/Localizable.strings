@@ -1,0 +1,41 @@
+/* 
+  Localizable.strings
+  TrackCamera
+
+  Created by LCh on 2020/7/30.
+  Copyright © 2020 LC. All rights reserved.
+*/
+
+str_to_main="Get Started";
+str_video="VIDEO";
+str_photo="PHOTO";
+str_setting="Setting";
+str_back="Back";
+str_sound="Countdown sound";
+str_privacy="Privacy Policy";
+str_top_tip="First time use,network activation is required after \n connecting the device.";
+str_title="Tip:";
+str_update_content="A new version is detected,update now?";
+str_update_later="Later";
+str_update_ok="Update";
+str_accept="Accept";
+str_exit="Exit";
+str_close="Close";
+
+str_no_device="There is no matching device around";
+str_retry="Retry";
+str_no_net="Temporarily inactive, please make sure the network is working.";
+
+str_filter_lookup="Retro";
+str_filter_colorInversion="Negative";
+str_filter_luminance="Luminance";
+str_filter_erosion="Erosion";
+str_filter_polarPixellate="Pixellate";
+str_filter_polkaDot="PolkaDot";
+str_filter_stretch="Stretch";
+str_filter_swirl="Swirl";
+str_filter_emboss="Emboss";
+str_filter_edge="Outline";
+str_filter_bilateralBlur="Beauty";
+str_filter_beauty="轻颜";
+str_filter_none="None";
