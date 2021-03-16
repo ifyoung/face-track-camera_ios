@@ -27,6 +27,7 @@ Apai Go ios
 
 1.  pod install
 2.  安装依赖后，新版Xcode选择 **legacy build system** 运行(可能是某个库导致必须用legacy运行)
+3. 人脸识别框架切换修改入口FilteredCameraBBMetalEXxxx(FilteredCameraBBMetalEXARC、FilteredCameraBBMetalEXML...)
 
 
 #### 使用截图
