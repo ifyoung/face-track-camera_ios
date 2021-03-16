@@ -29,11 +29,9 @@ Apai Go ios
 2.  安装依赖后，新版Xcode选择 **legacy build system** 运行(可能是某个库导致必须用legacy运行)
 
 
-#### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
+#### 使用截图
+- 滤镜
+![滤镜演示](https://images.gitee.com/uploads/images/2021/0316/115109_34bc1f5a_798938.gif "app-demo1.gif")
 
 #### 参与贡献
 
