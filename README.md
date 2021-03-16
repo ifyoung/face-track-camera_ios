@@ -7,6 +7,7 @@ Apai Go ios
 - 人脸识别框架可灵活替换为国内的一些厂商的,Arc什么的,识别效率可自行比较
 本项目为一锤子项目，后续不会维护更新，大家当作一个练手人脸识别、相机拍照、录制的demo看待
 
+- 初始主体基于Photolyze 作者：lammax 链接 https://github.com/lammax/Photolyze.git
 - 主体滤镜基于BBMetalImage 作者：Silence-GitHub  链接 https://github.com/Silence-GitHub/BBMetalImage.git
 - 动画框架Tweener 作者：alexrvarela 链接 https://github.com/alexrvarela/SwiftTweener.git
 - 权限框架SPPermissions 作者：varabeis 链接 https://github.com/varabeis/SPPermissions.git
