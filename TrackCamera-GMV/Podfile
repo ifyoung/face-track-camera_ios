@@ -11,7 +11,7 @@ target 'TrackCamera_GMV' do
   # Comment the next line if you don't want to use dynamic frameworks
 use_frameworks!
   # Pods for TrackCamera
-pod 'Tweener', '~> 1.0.0'
+pod 'Tweener', '~> 2.1.1'
 #pod 'BBMetalImage'
   # Pods for TrackCamera
 pod 'SPPermissions/Camera'

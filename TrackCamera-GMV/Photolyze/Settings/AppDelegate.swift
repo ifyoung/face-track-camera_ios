@@ -33,12 +33,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         NSLog("识别码%@", String(data: jsonData, encoding: String.Encoding.utf8)!)
     }
     func initUmSDK(){
-        //     友盟: 5f05d30d895cca2fca000039
-        
-        //        MobClick.start(withAppkey: "583f94fd4544cb0d300007da", reportPolicy: BATCH, channelId: nil)
-        //        MobClick.setLogEnabled(true);
+       
         let obj=UMAnalyticsConfig.init();
-        obj.appKey="5f05d30d895cca2fca000039";
+        obj.appKey="xxxxxxx";
         MobClick.start(withConfigure: obj);
         let version = Bundle.main.infoDictionary!["CFBundleShortVersionString"] as! String
         MobClick.setAppVersion(version)

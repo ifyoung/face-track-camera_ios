@@ -642,8 +642,8 @@ class MainSceneViewController: MainExController {
                 let closeUp = Tween(target:self.slideUp,//Target
                     duration:0.2,//One second
                     ease:Ease.none,
-                    keys:[\UIView.alpha:1.0,
-                          \UIView.transform:self.slideUp.transform.translatedBy(x: 0, y: self.slideMidY),
+                    to:[.key(\UIView.alpha,1.0),
+                          .key(\UIView.transform,self.slideUp.transform.translatedBy(x: 0, y: self.slideMidY)),
                           //This property is an optional.
                         //                            \UIView.backgroundColor!:UIColor.red
                 ])
@@ -655,8 +655,8 @@ class MainSceneViewController: MainExController {
                 let closeDown =  Tween(target:self.slideDown,//Target
                     duration:0.2,//One second
                     ease:Ease.none,
-                    keys:[\UIView.alpha:1.0,
-                          \UIView.transform:self.slideDown.transform.translatedBy(x: 0, y:  -downHeight),
+                    to:[.key(\UIView.alpha,1.0),
+                          .key(\UIView.transform,self.slideDown.transform.translatedBy(x: 0, y:  -downHeight)),
                           //This property is an optional.
                         //                            \UIView.backgroundColor!:UIColor.red
                 ])
@@ -676,8 +676,8 @@ class MainSceneViewController: MainExController {
             let openUp =  Tween(target:self.slideUp,//Target
                 duration:0.7,//One second
                 ease:Ease.none,
-                keys:[\UIView.alpha:0.8,
-                      \UIView.transform:self.slideUp.transform.translatedBy(x: 0, y: -self.slideMidY),
+                to:[.key(\UIView.alpha,0.8),
+                      .key(\UIView.transform,self.slideUp.transform.translatedBy(x: 0, y: -self.slideMidY)),
                       //This property is an optional.
                     //                            \UIView.backgroundColor!:UIColor.red
             ])
@@ -688,8 +688,8 @@ class MainSceneViewController: MainExController {
             let openDown =  Tween(target:self.slideDown,//Target
                 duration:0.7,//One second
                 ease:Ease.none,
-                keys:[\UIView.alpha:0.8,
-                      \UIView.transform:self.slideDown.transform.translatedBy(x: 0, y: downHeight),
+                to:[.key(\UIView.alpha,0.8),
+                      .key(\UIView.transform,self.slideDown.transform.translatedBy(x: 0, y: downHeight)),
                       //This property is an optional.
                     //                            \UIView.backgroundColor!:UIColor.red
             ])

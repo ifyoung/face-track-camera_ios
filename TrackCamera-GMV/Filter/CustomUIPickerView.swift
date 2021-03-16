@@ -85,6 +85,10 @@ class CustomUIPickerView: UIPickerView,UIPickerViewDataSource, UIPickerViewDeleg
         
         //坐标控制弧度,300-600基本无弧度,200-400微
         self.frame = CGRect(x: 0-320, y: y+10, width: parentView.frame.width+600, height: height * 1.3)
+        
+        if(Global.isIphoneX()){
+            self.frame = CGRect(x: 0-320, y: y, width: parentView.frame.width+600, height: height * 1.5)
+        }
         //        self.backgroundColor = UIColor.red
         self.selectRow(selectedIndex, inComponent: 0, animated: true)
         filterName = defaultFilters
@@ -178,8 +182,8 @@ class CustomUIPickerView: UIPickerView,UIPickerViewDataSource, UIPickerViewDeleg
           let t = Tween(target:mask,//Target
                        duration:0.3,//One second
                                   ease:Ease.none,
-                                  keys:[\UILabel.alpha:1,
-                                        \UILabel.transform:mask.transform.translatedBy(x: 0, y:  -(mask.frame.width)),
+                                  to:[.key(\UILabel.alpha,1),
+                                      .key(\UILabel.transform,mask.transform.translatedBy(x: 0, y:  -(mask.frame.width))),
 //                                        \UILabel.textColor:UIColor.green,无用
                                         //This property is an optional.
                                       //                            \UIView.backgroundColor!:UIColor.red
@@ -196,8 +200,8 @@ class CustomUIPickerView: UIPickerView,UIPickerViewDataSource, UIPickerViewDeleg
               let r = Tween(target:maskTemp,//Target
                 duration:0.3,//One second
                            ease:Ease.none,
-                           keys:[\UILabel.alpha:1,
-                                 \UILabel.transform:maskTemp.transform.translatedBy(x: 0, y:  (maskTemp.frame.width)),
+                           to:[.key(\UILabel.alpha,1),
+                               .key(\UILabel.transform,maskTemp.transform.translatedBy(x: 0, y:  (maskTemp.frame.width))),
 //                                 \UILabel.textColor:UIColor.black,无用
                                  //This property is an optional.
                                //                            \UIView.backgroundColor!:UIColor.red

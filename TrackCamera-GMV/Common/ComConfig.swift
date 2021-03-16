@@ -26,14 +26,14 @@ var AppDelegateMain:AppDelegate?
 var isInBackGround = false
 
 
-var ASF_APPID = "8rpGZPJoGMY4VM62aRpYYMZDD7Gi8x9iVvcwN4roecyJ"
-var ASF_SDKKEY = "F2oMFXpFkb9pbKR5nFpgTpvnyVjVDWqEA8zXkUTXHfuX"
+var ASF_APPID = "xxxxx"
+var ASF_SDKKEY = "xxxxx"
 
 //略过最后一个小数点
 let appVersion = Bundle.main.infoDictionary!["CFBundleShortVersionString"] as! String
 
 let GlobalToast = ToastView()
-let GetAPPKeyURL = "http://snp-us.top/ydcp/sp/findHRAppInfo"
+let GetAPPKeyURL = "http://www.baidu.com"
 
 
 

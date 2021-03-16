@@ -30,23 +30,13 @@ public enum UPDATE_RES:Int{
 
 typealias CallResult = ((String) -> Void)?
 
-//http://snp-us.top/ydcp/sp/findHRAppInfo
+
 
 struct NetWork {
     //    var onSuccessItem:onGetSuccessClosure!
     
     //    var callRes:CallResult
-    
-    
-    
-    //    private static final String EncryptAlg ="AES";
-    //    private static final String Cipher_Mode="AES/ECB/PKCS7Padding";
-    //    private static final String Encode="UTF-8";
-    //    private static final int Secret_Key_Size=32;
-    //    private static final String Key_Encode="UTF-8";
-    //
-    //    private static final String keys="69530C901192ABE596CD10A288D7D327";
-    
+
     
     
     static let sharedManager:NetWorkAFN = {
@@ -58,12 +48,6 @@ struct NetWork {
     
     
     
-    //    HashMap<String, String> upHashMap = new HashMap<>();
-    //    //        upHashMap.put("tokens", "admin_1563462121870_9901c0e76d79b384a40a415d8b0564e3");
-    //    upHashMap.put("tokens", NetUtils.genToken(String.valueOf((int) ((Math.random() * 9 + 1) * 100000))));
-    //    upHashMap.put("appVersion", H5_version);
-    //    upHashMap.put("pt", "android");
-    //    upHashMap.put("dev", ISDev.toString());
     
     static func checkActive(callResult:CallResult){
         let appUDID = Global.getBleName(nameKey: "suitId")

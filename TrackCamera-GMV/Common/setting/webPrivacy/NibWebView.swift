@@ -67,7 +67,8 @@ class NibWebView: UIView, WKUIDelegate, WKNavigationDelegate {
         super.awakeFromNib()
        let currentLang = (NSLocale.preferredLanguages[0] as String)
         print("awakeFromNib-lang\(currentLang)")
-        var targetUrl = "https://snp-us.top/ydcp/sp/protocol"
+        
+        var targetUrl = "https://www.baidu.com"
         
         if(currentLang.contains("fr")){
             targetUrl = targetUrl + "?language=fr"
@@ -116,16 +117,6 @@ class NibWebView: UIView, WKUIDelegate, WKNavigationDelegate {
     init() {
         super.init(frame: .zero)
         fromNib()//唤醒
-        //        let contentView =  loadFromNib("NibWebView")[0]
-        //
-        //               addSubview(contentView)
-        //               contentView.fillSuperview()
-        //        var s:NSString = "https://snp-us.top/ydcp/sp/protocol"
-        //        s.addingPercentEncoding(withAllowedCharacters: CharacterSet)
-        //               let r = URL.init(string:s as String)
-        //
-        //        webView.load(URLRequest.init(url:URL.init(string: "http://www.apple.com")!))
-        //
-        
+      
     }
 }

@@ -15,8 +15,6 @@
 //#import "RunModelOB.h"
 
 //
-//#define ASF_APPID            @"8rpGZPJoGMY4VM62aRpYYMZDD7Gi8x9iVvcwN4roecyJ"
-//#define ASF_SDKKEY           @"F2oMFXpFkb9pbKR5nFpgTpvnyVjVDWqEA8zXkUTXHfuX"
 
 //
 //#define IMAGE_WIDTH     720

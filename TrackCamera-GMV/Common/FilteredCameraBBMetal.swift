@@ -155,8 +155,8 @@ class FilteredCameraBBMetal: NSObjectExMetal{
         let tween:Tween = Tween(target:view,//Target
             duration:0.7,//One second
             ease:Ease.inOutCubic,
-            keys:[\UIView.alpha:1.0,
-                  \UIView.frame:CGRect(x:0, y:0, width:self.parentView!.frame.width, height:self.parentView!.frame.height),
+            to:[.key(\UIView.alpha,1.0),
+                  .key(\UIView.frame,CGRect(x:0, y:0, width:self.parentView!.frame.width, height:self.parentView!.frame.height)),
                   //This property is an optional.
                 //                            \UIView.backgroundColor!:UIColor.red
         ])

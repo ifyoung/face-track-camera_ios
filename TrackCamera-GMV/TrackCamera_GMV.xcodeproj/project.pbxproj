@@ -347,8 +347,6 @@
 		57EEE5A324D27DDC00464C1E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 57EEE5A524D27DDC00464C1E /* Localizable.strings */; };
 		57F23FC924B82D8B00AB2241 /* NibWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5775369F24B7931E00782526 /* NibWebView.swift */; };
 		57F26758248B32A500068024 /* MianScrollCollectionViewEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F26757248B32A500068024 /* MianScrollCollectionViewEx.swift */; };
-		8B46CE451253E0DC52ABE66F /* Pods_TrackCameraAll_TrackLive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8C38A2314D5D8117C57DED8 /* Pods_TrackCameraAll_TrackLive.framework */; };
-		E9D10DBB2A0CD49B4D55705F /* Pods_TrackCameraAll_TrackCamera_GMV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F592FF299514966F1F4FD126 /* Pods_TrackCameraAll_TrackCamera_GMV.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -844,8 +842,6 @@
 		57EEE5A724D27E1300464C1E /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		57F26757248B32A500068024 /* MianScrollCollectionViewEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MianScrollCollectionViewEx.swift; sourceTree = "<group>"; };
 		57F9A59224BE91440050106A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		E8C38A2314D5D8117C57DED8 /* Pods_TrackCameraAll_TrackLive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrackCameraAll_TrackLive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F592FF299514966F1F4FD126 /* Pods_TrackCameraAll_TrackCamera_GMV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrackCameraAll_TrackCamera_GMV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -859,7 +855,6 @@
 				57BD056524B84CAC006F5936 /* WebKit.framework in Frameworks */,
 				57EEAFF224B60D49005B2828 /* CoreTelephony.framework in Frameworks */,
 				57EEAFF024B60D3E005B2828 /* SystemConfiguration.framework in Frameworks */,
-				E9D10DBB2A0CD49B4D55705F /* Pods_TrackCameraAll_TrackCamera_GMV.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -868,7 +863,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				57A51F4924EA141800E0FE94 /* ReplayKit.framework in Frameworks */,
-				8B46CE451253E0DC52ABE66F /* Pods_TrackCameraAll_TrackLive.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1776,8 +1770,6 @@
 				57EEAFEF24B60D3E005B2828 /* SystemConfiguration.framework */,
 				57A51F4824EA141800E0FE94 /* ReplayKit.framework */,
 				57A51F5424EA141800E0FE94 /* UIKit.framework */,
-				F592FF299514966F1F4FD126 /* Pods_TrackCameraAll_TrackCamera_GMV.framework */,
-				E8C38A2314D5D8117C57DED8 /* Pods_TrackCameraAll_TrackLive.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
