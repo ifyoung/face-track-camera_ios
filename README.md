@@ -7,17 +7,16 @@ Apai Go ios
 - 人脸识别框架可灵活替换为国内的一些厂商的,Arc什么的,识别效率可自行比较
 本项目为一锤子项目，后续不会维护更新，大家当作一个练手人脸识别、相机拍照、录制的demo看待
 
-- 初始主体基于Photolyze 作者：lammax 链接 https://github.com/lammax/Photolyze.git
-- 主体滤镜基于BBMetalImage 作者：Silence-GitHub  链接 https://github.com/Silence-GitHub/BBMetalImage.git
-- 动画框架Tweener 作者：alexrvarela 链接 https://github.com/alexrvarela/SwiftTweener.git
-- 权限框架SPPermissions 作者：varabeis 链接 https://github.com/varabeis/SPPermissions.git
-- 音效框架Soundable 作者：ThXou 链接 https://github.com/ThXou/Soundable.git
-- 网络框架AFNetworking  作者：AFNetworking 链接 https://github.com/AFNetworking/AFNetworking.git
-- AES加密框架CryptoSwift 作者：krzyzanowskim 链接 https://github.com/krzyzanowskim/CryptoSwift.git
-- 弹框框架Pow 作者：Meniny 链接 https://github.com/Meniny/Pow.git
+- 初始主体基于[Photolyze 作者：lammax](https://github.com/lammax/Photolyze.git) 
+- 主体滤镜基于[BBMetalImage 作者：Silence-GitHub](https://github.com/Silence-GitHub/BBMetalImage.git)
+- 动画框架[Tweener 作者：alexrvarela](https://github.com/alexrvarela/SwiftTweener.git)
+- 权限框架[SPPermissions 作者：varabeis](https://github.com/varabeis/SPPermissions.git)
+- 音效框架[Soundable 作者：ThXou](https://github.com/ThXou/Soundable.git)
+- 网络框架[AFNetworking 作者：AFNetworking](https://github.com/AFNetworking/AFNetworking.git)
+- AES加密框架[CryptoSwift 作者：krzyzanowskim](https://github.com/krzyzanowskim/CryptoSwift.git)
+- 弹框框架[Pow 作者：Meniny](https://github.com/Meniny/Pow.git)
 - 图片格式转换libyuv-iOS 
-- 相册框架DLPhotoPicker 作者：darling0825 链接 https://github.com/darling0825/DLPhotoPicker.git
-
+- 相册框架[DLPhotoPicker 作者：darling0825](https://github.com/darling0825/DLPhotoPicker.git)
 
 #### 软件架构
 软件架构说明
