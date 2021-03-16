@@ -23,10 +23,10 @@ Apai Go ios
 软件架构说明
 基于swift 5,包含些许Objective-C三方库引用
 
-#### 安装教程
+#### 安装+使用教程
 
 1.  pod install
-2.  安装依赖后运行
+2.  安装依赖后，新版Xcode选择 **legacy build system** 运行(可能是某个库导致必须用legacy运行)
 
 
 #### 使用说明
