@@ -4,8 +4,7 @@
 Apai Go ios
 - 基于谷歌GMV的人脸识别相机拍摄/录制应用，此项目为一个赶工拼凑之作，虽已上架但实体流产。。。本着互相学习的态度，开源出来供有需求的参考参考
 
-- 人脸识别框架可灵活替换为国内的一些厂商的,Arc什么的,识别效率可自行比较
-本项目为一锤子项目，后续不会维护更新，大家当作一个练手人脸识别、相机拍照、录制的demo看待
+- 人脸识别框架可灵活替换为国内的一些厂商的,Arc什么的,识别效率可自行比较，大家当作一个练手人脸识别、相机拍照、录制的demo看待
 
 - 初始主体基于[Photolyze 作者：lammax](https://github.com/lammax/Photolyze.git) 
 - 主体滤镜基于[BBMetalImage 作者：Silence-GitHub](https://github.com/Silence-GitHub/BBMetalImage.git)
